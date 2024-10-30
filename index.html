@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gaming Store I</title>
+
+    <script src="./js/tailwind.js"></script>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/bootstrapicons.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+
+<body
+    class="bg-gray-950 bg-gradient-to-l from-red-500/20 via-transparent to-red-600/20 text-red-500 flex flex-col items-center justify-center">
+
+
+    <div id="Container" class="w-[90dvw] max-w-[1280px] flex flex-col items-center justify-center gap-10 mb-10">
+
+        <nav
+            class="w-[90dvw] max-w-[1280px] sticky top-0 z-10 bg-red-950/20 backdrop-blur-sm p-3 rounded-b-lg flex items-center justify-center gap-10 text-lg font-bold">
+            <a href="#" class="rounded-sm duration-300 px-2 border-b-4 border-transparent hover:border-red-500 cursor-pointer">Home</a>
+            <a href="#offers" class="rounded-sm duration-300 px-2 border-b-4 border-transparent hover:border-red-500 cursor-pointer">Offers</a>
+            <a href="#best" class="rounded-sm duration-300 px-2 border-b-4 border-transparent hover:border-red-500 cursor-pointer">Best</a>
+            <a href="#all" class="rounded-sm duration-300 px-2 border-b-4 border-transparent hover:border-red-500 cursor-pointer">All</a>
+            <a href="#contact_us" class="rounded-sm duration-300 px-2 border-b-4 border-transparent hover:border-red-500 cursor-pointer">Contact US</a>
+        </nav>
+
+        <header
+            class="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden bg-red-900 rounded-lg shadow-lg shadow-red-500/20">
+            <img src="imgs/banner.png" alt="banner" class="object-cover w-full h-full">
+        </header>
+
+        <div id="offers" class="w-full rounded-lg flex flex-col justify-center items-center gap-5">
+            <h1 class="w-full text-start text-5xl font-bold px-3 py-2 rounded-lg bg-red-500/20">Offers</h1>
+            <div id="card_group" class="w-full flex flex-wrap justify-center items-center gap-10">
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold text-gray-600 line-through">500$</h1>
+                        <h1 class="p-1 text-lg font-bold">400$</h1>
+                    </div>
+                </div>
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold text-gray-600 line-through">500$</h1>
+                        <h1 class="p-1 text-lg font-bold">400$</h1>
+                    </div>
+                </div>
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold text-gray-600 line-through">500$</h1>
+                        <h1 class="p-1 text-lg font-bold">400$</h1>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="best" class="w-full rounded-lg flex flex-col justify-center items-center gap-5">
+            <h1 class="w-full text-start text-5xl font-bold px-3 py-2 rounded-lg bg-red-500/20">Best</h1>
+            <div id="card_group" class="w-full flex flex-wrap justify-center items-center gap-10">
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold">500$</h1>
+                    </div>
+                </div>
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold">500$</h1>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="all" class="w-full rounded-lg flex flex-col justify-center items-center gap-5">
+            <h1 class="w-full text-start text-5xl font-bold px-3 py-2 rounded-lg bg-red-500/20">All Games</h1>
+            <div id="card_group" class="w-full flex flex-wrap justify-center items-center gap-10">
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold">500$</h1>
+                    </div>
+                </div>
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold">500$</h1>
+                    </div>
+                </div>
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold">500$</h1>
+                    </div>
+                </div>
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold">500$</h1>
+                    </div>
+                </div>
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold">500$</h1>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <!-- <div id="contact_us" class="w-full rounded-lg flex flex-col justify-center items-center gap-5">
+            <h1 class="w-full text-start text-5xl font-bold px-3 py-2 rounded-lg bg-red-500/20">Contact US</h1>
+            <div id="card_group" class="w-full flex flex-wrap justify-center items-center gap-10">
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold">500$</h1>
+                    </div>
+                </div>
+                <div id="card" class="w-1/5 rounded-lg flex flex-col gap-1 bg-red-500/20 backdrop-blur-lg overflow-hidden">
+                    <img src="imgs/game.png" alt="game" class="w-full aspect-square object-cover rounded-t-lg">
+                    <div class="flex justify-between items-center p-3">
+                        <h1 class="w-full text-lg font-bold text-white">New Game</h1>
+                        <h1 class="p-1 text-lg font-bold">500$</h1>
+                    </div>
+                </div>
+                
+            </div>
+        </div> -->
+
+    </div>    
+    
+    <script src="/js/tailwind.config.js"></script>
+    <script src="/js/scripts.js"></script>
+    
+</body>
+
+</html>
